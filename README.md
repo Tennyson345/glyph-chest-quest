@@ -247,6 +247,9 @@ MIT License
 
 ## 🤝 Contributing
 
+### Recent Updates
+- Improved documentation structure
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
