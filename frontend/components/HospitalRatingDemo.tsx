@@ -79,6 +79,7 @@ export const HospitalRatingDemo = () => {
     totalScore: number;
   } | null>(null);
   const [isLoadingStats, setIsLoadingStats] = useState(false);
+  const [isInitializing, setIsInitializing] = useState(true);
   const [message, setMessage] = useState("");
   const [validationErrors, setValidationErrors] = useState<Record<string, string>>({});
   const [activeTab, setActiveTab] = useState<'rate' | 'stats'>('rate');
