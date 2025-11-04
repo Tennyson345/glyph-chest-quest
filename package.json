@@ -1,7 +1,7 @@
 {
   "name": "hospital-quality-rating",
   "description": "Hospital Quality Rating System with FHEVM - Encrypted ratings with privacy-preserving aggregation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "node": ">=20",
     "npm": ">=7.0.0"
