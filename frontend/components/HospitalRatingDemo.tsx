@@ -80,6 +80,7 @@ export const HospitalRatingDemo = () => {
   } | null>(null);
   const [isLoadingStats, setIsLoadingStats] = useState(false);
   const [message, setMessage] = useState("");
+  const [validationErrors, setValidationErrors] = useState<Record<string, string>>({});
   const [activeTab, setActiveTab] = useState<'rate' | 'stats'>('rate');
 
   // Ensure component is mounted on client side
