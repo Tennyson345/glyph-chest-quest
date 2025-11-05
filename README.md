@@ -249,6 +249,7 @@ MIT License
 
 ### Recent Updates
 - Improved documentation structure
+- Added inline comments to contract functions
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
