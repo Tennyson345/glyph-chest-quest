@@ -9,6 +9,7 @@ import { HospitalQualityRatingAddresses } from "@/abi/HospitalQualityRatingAddre
 import { ethers } from "ethers";
 
 const RATING_CATEGORIES = [
+  // Rating categories constants
   {
     key: "service",
     label: "Service Quality",
