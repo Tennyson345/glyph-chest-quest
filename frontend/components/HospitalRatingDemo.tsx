@@ -83,6 +83,7 @@ export const HospitalRatingDemo = () => {
   const [message, setMessage] = useState("");
   const [validationErrors, setValidationErrors] = useState<Record<string, string>>({});
   const [activeTab, setActiveTab] = useState<'rate' | 'stats'>('rate');
+  const [hasSubmittedRating, setHasSubmittedRating] = useState(false);
 
   // Ensure component is mounted on client side
   useEffect(() => {
