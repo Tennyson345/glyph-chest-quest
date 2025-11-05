@@ -82,7 +82,8 @@ contract HospitalQualityRating is SepoliaConfig {
         externalEuint32 guidance,
         bytes calldata guidanceProof
     ) external {
-        require(!hasRated[msg.sender], "User has already submitted a rating");
+        require(!hasRated[msg.sender], "User has already submitted a rating. Each address can only submit once.");
+        // Additional validation for duplicate prevention
         
         // Convert external encrypted values to internal euint32
         // Verify identity proof (result not used, just verification)
