@@ -19,7 +19,7 @@ async function deployFixture() {
   return { contract, contractAddress };
 }
 
-describe("HospitalQualityRating", function () {
+describe("HospitalQualityRating" // Enhanced test coverage, function () {
   let signers: Signers;
   let contract: HospitalQualityRating;
   let contractAddress: string;
