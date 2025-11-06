@@ -67,6 +67,7 @@ export const HospitalRatingDemo = () => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hasRated, setHasRated] = useState(false);
+  const [showSuccessAnimation, setShowSuccessAnimation] = useState(false);
   const [statistics, setStatistics] = useState<{
     totalRatings: number;
     averages: {
