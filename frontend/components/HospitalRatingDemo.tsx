@@ -126,7 +126,7 @@ export const HospitalRatingDemo = () => {
         });
         setHasRated(result as boolean);
       } catch (error) {
-        console.error("Error checking if user has rated:", error);
+        console.error("Error checking rating status:", error); // Enhanced error logging
       }
     };
 
