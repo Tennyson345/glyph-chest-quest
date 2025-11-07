@@ -250,6 +250,8 @@ MIT License
 ### Recent Updates
 - Improved documentation structure
 - Added inline comments to contract functions
+- Added architecture diagram to README
+- Enhanced deployment instructions
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
