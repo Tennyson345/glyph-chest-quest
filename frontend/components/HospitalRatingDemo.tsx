@@ -106,6 +106,7 @@ export const HospitalRatingDemo = () => {
 
   // Initialize FHEVM
   const { instance: fhevmInstance, status: fhevmStatus } = useFhevm({
+    // Optimized FHEVM initialization
     provider: eip1193Provider,
     chainId: chainId || 31337,
     initialMockChains: { 31337: "http://localhost:8545" },
