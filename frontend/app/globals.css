@@ -62,7 +62,8 @@
   box-shadow: 0 2px 4px rgba(0, 212, 170, 0.2);
 }
 
-.medical-btn:hover {
+  .medical-btn:hover {
+    transform: translateY(-1px); /* Enhanced hover effect */
   background: linear-gradient(135deg, var(--medical-green-600), var(--medical-green-700));
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 212, 170, 0.3);
