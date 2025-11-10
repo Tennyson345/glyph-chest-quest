@@ -252,7 +252,7 @@ export const HospitalRatingDemo = () => {
   // Submit rating
   const handleSubmit = async () => {
     if (!isConnected || !isDeployed || !fhevmInstance || !address || !contractAddress || !walletClient) {
-      setMessage("Please connect your wallet");
+      setMessage("Please connect your wallet and ensure FHEVM is ready");
       return;
     }
 
